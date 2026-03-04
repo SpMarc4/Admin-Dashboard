@@ -29,14 +29,12 @@ html {
     justify-content: center;
 }
 
-/* Ver si lo mejor es utilizar flex */
-
 .sidebar-element {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px,1fr));
     gap: 20px;
+    justify-items: center;
     align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 
 .sidebar-element .icon{
@@ -45,13 +43,12 @@ html {
 }
 
 .sidebar-element .tag {
-    width: 100px;
-    align-self: center;
     color: white;
     font-size: 16px;
     font-weight: bold;
-    text-align: center;
+    grid-auto-flow: row;
 }
+
 
 img.icon {
     filter: invert(1);
