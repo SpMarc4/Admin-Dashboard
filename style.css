@@ -83,7 +83,7 @@ img.icon {
     display: grid;
     padding: 15px;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr 3fr;
+    grid-template-rows: 1fr 2fr;
 }
 
 .header-user-settings #user-settings-image,
@@ -149,7 +149,15 @@ img.icon {
 }
 
 
-/*  */
+/* Header Actions */
+
+.header-actions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto-fit, minmax(40px, 1fr));
+    gap: 4px;
+    align-items: center;
+}
 
 .main-content {
     background-color: var(--side-color);
