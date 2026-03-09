@@ -97,3 +97,22 @@ Este repositorio replica un caso de uso típico de "Admin Dashboard". La finalid
     Licencia: [Imgur Licence](https://help.imgur.com/hc/en-us/articles/26480003084699-Trademark-Use-Policy)
 
     Fuente: [https://imgur.com/gallery/handsome-wesbtw-tKqPRMs#/t/baby_sinclair](https://imgur.com/gallery/handsome-wesbtw-tKqPRMs#/t/baby_sinclair)
+    
+-   Purple Melee Minion profileicon [League of Legends Fandom](https://leagueoflegends.fandom.com)
+
+    Licencia: [League of Legends Fandom Licence](https://leagueoflegends.fandom.com/wiki/League_of_Legends_Wiki:Copyrights)
+
+    Fuente: [https://leagueoflegends.fandom.com/es/wiki/%C3%8Dcono_de_invocador?file=Purple_Melee_Minion_profileicon.png](https://leagueoflegends.fandom.com/es/wiki/%C3%8Dcono_de_invocador?file=Purple_Melee_Minion_profileicon.png)
+
+
+-   PBlue Super Minion profileicon [League of Legends Fandom](https://leagueoflegends.fandom.com)
+
+    Licencia: [League of Legends Fandom Licence](https://leagueoflegends.fandom.com/wiki/League_of_Legends_Wiki:Copyrights)
+
+    Fuente: [https://leagueoflegends.fandom.com/es/wiki/%C3%8Dcono_de_invocador?file=Blue_Super_Minion_profileicon.png](https://leagueoflegends.fandom.com/es/wiki/%C3%8Dcono_de_invocador?file=Blue_Super_Minion_profileicon.png)
+
+-   Purple Caster Minion profileicon [League of Legends Fandom](https://leagueoflegends.fandom.com)
+
+    Licencia: [League of Legends Fandom Licence](https://leagueoflegends.fandom.com/wiki/League_of_Legends_Wiki:Copyrights)
+
+    Fuente: [https://leagueoflegends.fandom.com/es/wiki/%C3%8Dcono_de_invocador?file=Blue_Super_Minion_profileicon.png](https://leagueoflegends.fandom.com/es/wiki/%C3%8Dcono_de_invocador?file=Blue_Super_Minion_profileicon.png)
