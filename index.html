@@ -8,52 +8,186 @@
     <body>
         <div class="layout-container">
             <div class="sidebar">
-                <div class="sidebar-element">
-                    <img src="/images/view-dashboard.svg" class="icon">
-                    <p class="tag">Dashboard</p>
+                <div class="sidebar-element-title">
+                    <div class="sidebar-element">
+                        <img src="/images/view-dashboard.svg" class="icon">
+                        <p class="tag">Dashboard</p>
+                    </div>
                 </div>
-                <div class="sidebar-element">
-                    <img src="/images/home-outline.svg" class="icon">
-                    <p class="tag">Home</p>
-                </div>
-                <div class="sidebar-element">
-                    <img src="/images/card-account-details-outline.svg" class="icon">
-                    <p class="tag">Profile</p>
-                </div>
-                <div class="sidebar-element">
-                    <img src="/images/message-reply-outline.svg" class="icon">
-                    <p class="tag">Messages</p>
-                </div>
-                <div class="sidebar-element">
-                    <img src="/images/clock-time-three-outline.svg" class="icon">
-                    <p class="tag">History</p>
-                </div>
-                <div class="sidebar-element">
-                    <img src="/images/file-document-multiple-outline.svg" class="icon">
-                    <p class="tag">Tasks</p>
-                </div>
-                <div class="sidebar-element">
-                    <img src="/images/account-group.svg" class="icon">
-                    <p class="tag">Communities</p>
-                </div>
-                <div class="sidebar-element">
-                    <img src="/images/cog.svg" class="icon">
-                    <p class="tag">Settings</p>
-                </div>
-                <div class="sidebar-element">
-                    <img src="/images/help-box.svg" class="icon">
-                    <p class="tag">Support</p>
-                </div>
-                <div class="sidebar-element">
-                    <img src="/images/shield-check-outline.svg" class="icon">
-                    <p class="tag">Privacy</p>
+                <div class="sidebar-element-controls">
+                    <div class="sidebar-element">
+                        <img src="/images/home-outline.svg" class="icon">
+                        <p class="tag">Home</p>
+                    </div>
+                    <div class="sidebar-element">
+                        <img src="/images/card-account-details-outline.svg" class="icon">
+                        <p class="tag">Profile</p>
+                    </div>
+                    <div class="sidebar-element">
+                        <img src="/images/message-reply-outline.svg" class="icon">
+                        <p class="tag">Messages</p>
+                    </div>
+                    <div class="sidebar-element">
+                        <img src="/images/clock-time-three-outline.svg" class="icon">
+                        <p class="tag">History</p>
+                    </div>
+                    <div class="sidebar-element">
+                        <img src="/images/file-document-multiple-outline.svg" class="icon">
+                        <p class="tag">Tasks</p>
+                    </div>
+                    <div class="sidebar-element">
+                        <img src="/images/account-group.svg" class="icon">
+                        <p class="tag">Communities</p>
+                    </div>
+                    <div class="sidebar-element">
+                        <img src="/images/cog.svg" class="icon">
+                        <p class="tag">Settings</p>
+                    </div>
+                    <div class="sidebar-element">
+                        <img src="/images/help-box.svg" class="icon">
+                        <p class="tag">Support</p>
+                    </div>
+                    <div class="sidebar-element">
+                        <img src="/images/shield-check-outline.svg" class="icon">
+                        <p class="tag">Privacy</p>
+                    </div>
                 </div>
             </div>
             <div class="header">
-                <p>header</p>
+                <div class="header-search">
+                    <img class="header-icon" src="images/magnify.svg">
+                    <form action="" method="post">
+                        <input class="search-bar" type="text" placeholder="Search..."></input>
+                    </form>
+                </div>
+                <div class="header-user-settings">
+                    <img class="header-icon" src="images/bell-ring-outline.svg">
+                    <img id="user-settings-image" src="images/BabySinclair.jpeg">
+                    <p id="user-name-settings">Marc San</p>
+                </div>
+                <div class="header-user-greeting">
+                    <img id="user-image" src="images/BabySinclair.jpeg">
+                    <div>
+                        <p id="greeting">Hi there,</p>
+                        <p id="user-name">M San (@msan)</p>
+                    </div>
+                </div>
+                <div class="header-actions">
+                    <button class="header-button">New</button>
+                    <button class="header-button">Upload</button>
+                    <button class="header-button">Share</button>
+                </div>
             </div>
             <div class="main-content">
-                <p>main-content</p>
+                <div class="your-projects-container">
+                    <p class="main-content-title">Your Projects</p>
+                    <div class="your-projects">
+                        <div class="project">
+                            <p class="project-title">Super Cool Project</p>
+                            <p class="project-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur numquam enim nesciunt veritatis iure aut facere dicta.</p>
+                            <div class="project-icons">
+                                <img class="project-icon" src="images/star-plus-outline.svg">
+                                <img class="project-icon" src="images/eye-plus-outline.svg">
+                                <img class="project-icon" src="images/share-variant-outline.svg">
+                            </div>
+                        </div>
+                        <div class="project">
+                            <p class="project-title">Less Cool Project</p>
+                            <p class="project-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa quis facere eveniet? Laborum quae ut quam.</p>
+                            <div class="project-icons">
+                                <img class="project-icon" src="images/star-plus-outline.svg">
+                                <img class="project-icon" src="images/eye-plus-outline.svg">
+                                <img class="project-icon" src="images/share-variant-outline.svg">
+                            </div>
+                        </div>
+                        <div class="project">
+                            <p class="project-title">Impossible App</p>
+                            <p class="project-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="project-icons">
+                                <img class="project-icon" src="images/star-plus-outline.svg">
+                                <img class="project-icon" src="images/eye-plus-outline.svg">
+                                <img class="project-icon" src="images/share-variant-outline.svg">
+                            </div>
+                        </div>
+                        <div class="project">
+                            <p class="project-title">Easy Peasy App</p>
+                            <p class="project-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, minima culpa? Voluptatibus eum nulla deleniti.</p>
+                            <div class="project-icons">
+                                <img class="project-icon" src="images/star-plus-outline.svg">
+                                <img class="project-icon" src="images/eye-plus-outline.svg">
+                                <img class="project-icon" src="images/share-variant-outline.svg">
+                            </div>
+                        </div>
+                        <div class="project">
+                            <p class="project-title">Add Blocker</p>
+                            <p class="project-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto autem soluta itaque magni animi quos nesciunt ipsam provident cum.</p>
+                            <div class="project-icons">
+                                <img class="project-icon" src="images/star-plus-outline.svg">
+                                <img class="project-icon" src="images/eye-plus-outline.svg">
+                                <img class="project-icon" src="images/share-variant-outline.svg">
+                            </div>
+                        </div>
+                        <div class="project">
+                            <p class="project-title">Money Maker</p>
+                            <p class="project-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur laudantium vitae illum.</p>
+                            <div class="project-icons">
+                                <img class="project-icon" src="images/star-plus-outline.svg">
+                                <img class="project-icon" src="images/eye-plus-outline.svg">
+                                <img class="project-icon" src="images/share-variant-outline.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="announcements-container">
+                    <p class="main-content-title">Announcements</p>
+                    <div class="announcements">
+                        <div class="announcement-element">
+                            <p class="announcement-title">Site Mainteneance</p>
+                            <p class="announcement-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eum libero nisi.</p>
+                        </div>
+                        <div class="announcement-element">
+                            <p class="announcement-title">Community Share Day</p>
+                            <p class="announcement-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, recusandae? Doloribus maxime, fuga ducimus.</p>
+                        </div>
+                        <div class="announcement-element">
+                            <p class="announcement-title">Updated Privacy Policy</p>
+                            <p class="announcement-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sint nihil eligendi atque. Corrupti, accusantium.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-container">
+                    <p class="main-content-title">Trending</p>
+                    <div class="trending">
+                        <div class="trending-user">
+                            <img src="images/Purple_Caster_Minion_profileicon.webp" class="trending-user-image">
+                            <div class="trending-user-info">
+                                <p class="trending-user-tag">Racox</p>
+                                <p class="trending-user-project">League of Legends</p>
+                            </div>
+                        </div>
+                        <div class="trending-user">
+                            <img src="images/Blue_Super_Minion_profileicon.webp" class="trending-user-image">
+                            <div class="trending-user-info">
+                                <p class="trending-user-tag">LuguX</p>
+                                <p class="trending-user-project">Flyff</p>
+                            </div>
+                        </div>
+                        <div class="trending-user">
+                            <img src="images/Purple_Super_Minion_profileicon.webp" class="trending-user-image">
+                            <div class="trending-user-info">
+                                <p class="trending-user-tag">Lmentalal</p>
+                                <p class="trending-user-project">Rumble Fighter</p>
+                            </div>
+                        </div>
+                        <div class="trending-user">
+                            <img src="images/BabySinclair.jpeg" class="trending-user-image">
+                            <div class="trending-user-info">
+                                <p class="trending-user-tag">SPEEDSTEWIE</p>
+                                <p class="trending-user-project">Call of Duty</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
