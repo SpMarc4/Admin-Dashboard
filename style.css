@@ -150,10 +150,8 @@ img.icon {
 }
 
 .header-user-greeting #greeting {
-    /* grid-column: 2 / 3; */
     font-size: 0.75em;
 }
-
 
 /* Header Actions */
 
@@ -298,7 +296,7 @@ img {
     height: 50px;
     width: 50px;
     object-fit: cover;
-    clip-path: fill-box circle();
+    clip-path: circle();
     justify-self: center;
 }
 
